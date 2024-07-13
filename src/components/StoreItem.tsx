@@ -7,7 +7,7 @@ type StoreItemProps = {
     imgUrl: string
 
 }
-
+//Store item card
 export function StoreItem({ id, name, price, imgUrl }: StoreItemProps) {
     return (
       <Card>
